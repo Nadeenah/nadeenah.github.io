@@ -1,0 +1,294 @@
+body {
+	background-color: #FFFAFA;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	text-align: center;
+}
+
+header {
+	color: black;
+	margin: 5px 0;
+	font-family: "Times New Roman" , Times, serif;
+}
+
+h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-family:'New Gothic Style' , sans-serif;
+    margin: 5px 0;
+	text-align: center;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("images/books.jpg");
+    background-size:cover;
+    background-position: center top;
+	background-position: 50% 30%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+	color: white;
+	font-size: 32px;
+	white-space: nowrap;
+}
+
+nav {
+	border-radius: 10px;
+	text-align: center;
+	gap: 12px;
+}
+
+nav a{
+	font-weight: bold;
+	font-size: 18px;
+	color: #F5F5F5;
+	margin: 6px;
+	transition: 0.3s;
+}
+
+nav a:hover{
+	color: #3F000F;
+}
+
+.table-container {
+	width: 90%;
+	max-width: 900px;
+	margin: 40px auto;
+	overflow-x: auto;
+	padding: 0;
+	border: 1px solid #11001C;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+
+}
+
+table {
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	border-radius: 0;
+}
+
+td:hover {
+	background-color: rgba(63, 0, 15. 0.4);
+	transition: 0.2s;
+}
+
+th {
+	font-weight: bold;
+	font-size: 18px;
+	border: 2px solid #11001C;
+	padding: 6px 8px;
+	background-color: #3F000F;
+	color: #C9C0BB;
+}
+
+td {
+	border: 2px solid #11001C;
+	padding: 6px;
+	background-color: #C9C0BB;
+	color: #3F000F;
+}
+
+.form-container {
+	width: 250px;
+	box-shadow: 0 0 10px rgba(107,42,58,0.8);
+	margin: auto;
+	padding: 4px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 6px;
+}
+
+label{
+	color: black;
+	display: block;
+}
+
+button{
+	background-color: black;
+	color: #8C001A;
+	border-radius: 25px;
+	padding: 4px 6px;
+	font-size: 12px;
+	width: 100px;
+}
+
+button:hover {
+	background-color: #3A2A33;
+}
+
+.footer {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	background-color: #3F000F;
+    text-align: center;
+    padding: 8px 0;
+    box-shadow: 0 -4px 10px rgba(0,0,0,0.5);
+}
+
+.footer p {
+	color: white;
+	font-weight: bold;
+}
+
+main {
+	flex: 1;
+	min-height: 100vh;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
