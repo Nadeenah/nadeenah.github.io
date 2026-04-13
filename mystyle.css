@@ -29,7 +29,7 @@ p {
     background-size:cover;
     background-position: center top;
 	background-position: 50% 30%;
-    height: 350px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,10 +102,15 @@ td {
 
 .form-container {
 	width: 300px;
-	box-shadow: 0 0 10px rgba(107,42,58,0.5);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
 	margin: auto;
 	padding: 8px;
 	margin-top: 30px;
+	background-color: #3F000F;
+}
+
+.form-container h2{
+	color: white;
 }
 
 form {
@@ -116,7 +121,7 @@ form {
 }
 
 label{
-	color: black;
+	color: white;
 	width: 175px;
 	display: block;
 	text-align: center;
@@ -132,17 +137,20 @@ input, select, textarea {
 }
 
 button{
-	background-color: black;
-	color: #8C001A;
+	background-color: white;
+	color: #3F000F;
 	border-radius: 25px;
 	padding: 4px 6px;
 	font-size: 14px;
 	width: 120px;
 	margin-top: 12px;
+	border-color: #8C001A;
+	font-weight: bold;
 }
 
 button:hover {
-	background-color: #3A2A33;
+	background-color: black;
+	color: #FFF5F5;
 }
 
 .footer {
